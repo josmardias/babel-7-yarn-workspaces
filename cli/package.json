@@ -8,6 +8,6 @@
     "app-common": "1.0.0"
   },
   "scripts": {
-    "start": "babel-node --root-mode upward ./index.js"
+    "start": "babel-node --root-mode upward --ignore=' ' ./index.js"
   }
 }
