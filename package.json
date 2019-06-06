@@ -8,7 +8,7 @@
     "common"
   ],
   "scripts": {
-    "start:cli": "babel-node cli/index.js"
+    "start:cli": "cd cli; yarn start"
   },
   "dependencies": {
     "@babel/core": "^7.4.5",
