@@ -1,0 +1,18 @@
+{
+  "name": "babel-7-yarn-workspaces",
+  "private": true,
+  "description": "Repro of babel 7 on a yarn monorepo",
+  "license": "MIT",
+  "workspaces": [
+    "cli",
+    "common"
+  ],
+  "scripts": {
+    "start:cli": "babel-node cli/index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5"
+  }
+}
